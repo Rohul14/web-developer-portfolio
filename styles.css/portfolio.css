@@ -125,3 +125,18 @@ main{
 .about-info{
     text-align: center;
 }
+#what-i-do{
+    padding: 20px 150px ;
+}
+.skill{
+    display: flex;
+    align-items: center;
+    margin: 0px 100px;
+    background-color:#FFF8F3;
+
+}
+.skill-add{
+    margin: 0px 24px;
+    padding: 10px 3px;
+    
+}

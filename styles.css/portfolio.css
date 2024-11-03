@@ -134,12 +134,21 @@ main{
 .skill{
     display: flex;
     align-items: center;
-    gap: 10px;
-
+    margin: 0px 40px;
+    
 }
 .skill-add{
     margin: 24px;
     padding:15px ;
-    border-radius: 5px;background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06)   
+    border-radius: 0px;background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) 
+    
 }
+.para{
+    color: #757575;
+}
+/* resume column contine  */
+.resume-column-title{
+    font-size: 30px;
+    font-weight: 700;
+}    

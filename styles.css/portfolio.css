@@ -1,6 +1,9 @@
 /* nav related styles */
 nav{
     display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0px 70px;
 
 }
 .nav title{
@@ -40,6 +43,21 @@ body{
     border-radius: 5px;
     background: #FD6E0A;
     border: 0px;
+    color: #FFFFFF;
+    padding: 8px 15px;
     
 }
-
+/* header related styles  */
+.header{
+    background-color: #FFF8F3;
+   
+}
+.banner{
+    padding: 30px 90px 30px 120px;
+    display: flex;
+    align-items: center;
+}
+.header img{
+    width: 584px;
+    height: 676px
+}

@@ -64,7 +64,8 @@ body{
 .banner{
     padding: 30px 0px 0px 120px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    align-items: center;
     
     
     
@@ -92,6 +93,7 @@ body{
 .hello{
     margin-top: 0px;
     margin-right: 220px;
+    color: #757575;
     
 }
 /* about related styles */
@@ -148,7 +150,37 @@ main{
     color: #757575;
 }
 /* resume column contine  */
+.resume-content{
+    display: flex;
+    margin-top: 90px;
+    gap: 55px;
+}
+.resume-column{
+   
+}
 .resume-column-title{
     font-size: 30px;
     font-weight: 700;
-}    
+    
+}
+.resume-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-institute{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume-para{
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.download-cv{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 40px;
+}

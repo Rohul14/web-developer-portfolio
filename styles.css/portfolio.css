@@ -214,13 +214,14 @@ footer{
 }
 .social-links{
     gap: 30px;
+    margin-top: 40px;
 }
 .form-footer ,input ,textarea {
     display: block ;
     margin-bottom: 25px;
     border: 0px solid;
     width: 461px;
-    height: 64px;
+    height: 24px;
     border-radius: 5px;
     background: #FFF;
     padding: 18px 30px;

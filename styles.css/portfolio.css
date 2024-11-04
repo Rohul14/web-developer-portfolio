@@ -6,19 +6,22 @@ nav{
     margin: 0px 70px;
 
 }
-.nav title{
+.nav-title{
     color: #181818;
-    font-size: 45px;
+    font-size: 55px;
     font-weight: 800;
+    padding: 50px 90px;
 }
 nav >ul {
     display: flex;
+    padding: 50px 90px;
     
 }
 nav li{
     list-style: none;
     margin-right: 50px;
     align-content: center;
+    
 }
 nav a{
     text-decoration: none;
@@ -45,6 +48,10 @@ body{
     border: 0px;
     color: #FFFFFF;
     padding: 8px 15px;
+    width: 150px;
+    height: 50px;
+    font-weight: 700;
+    gap: 30px;
     
 }
 /* header related styles  */
@@ -54,27 +61,28 @@ body{
     background-repeat: no-repeat;
     background-position: bottom right;
    
+   
 }
 .benner-content{
     align-items: center;
     max-height: 585px;
-    
-
+    padding: 0px 50px;
 }
 .banner{
     padding: 30px 0px 0px 120px;
     display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    
-    
-    
+    justify-content: space-between;
+    align-items: center;  
 }
 .header img{
     width: 584px;
     height: 676px
 }
+.profile-pic{
+    padding: 0px 30px;
+    
 
+}
 .hi{
     color: #474747;
     font-size: 25px;
@@ -96,6 +104,7 @@ body{
     color: #757575;
     
 }
+.p
 /* about related styles */
 .about{ 
     margin: 60px ;
@@ -183,4 +192,43 @@ main{
     font-size: 20px;
     font-weight: 700;
     margin-top: 40px;
+}
+/* footer related content  */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    margin-top:70px ;
+    padding:130px 200px 150px 230px ;
+    justify-content: space-between;
+    gap: 100px;
+}
+.footer-column{
+    align-items: 50%;
+}
+.footer-para{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    width: 562px;
+}
+.social-links{
+    gap: 30px;
+}
+.form-footer ,input ,textarea {
+    display: block ;
+    margin-bottom: 25px;
+    border: 0px solid;
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 18px 30px;
+    
+    
+    
+   
+}
+.form-footer{
+    padding :28px 100px 230px ;
 }
